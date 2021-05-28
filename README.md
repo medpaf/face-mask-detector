@@ -5,11 +5,11 @@ The easiest way to use this program is to run the gui.py file.
 
 The dependencies to run this script are:
 
-  TensorFlow
-  Keras
-  OpenCV (cv2)
-  Skicit-learn (sklearn)
-  Matplotlib
-  NumPy
-  Imutils
+  1) TensorFlow
+  2) Keras
+  3) OpenCV (cv2)
+  4) Skicit-learn (sklearn)
+  5) Matplotlib
+  6) NumPy
+  7) Imutils
   
