@@ -12,4 +12,5 @@ The dependencies to run this script are:
   5) matplotlib
   6) numpy
   7) imutils
+  8) tkinter
   
