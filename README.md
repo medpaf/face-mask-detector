@@ -6,7 +6,7 @@ The easiest way to use this program is to run the gui.py file.
 The dependencies to run this script are:
 
   1) tensorflow
-  2) kervas
+  2) keras
   3) opencv (cv2)
   4) skicit-learn (sklearn)
   5) matplotlib
