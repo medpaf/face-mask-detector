@@ -49,7 +49,8 @@ sudo pip3 install tk
 
 ### Windows
 
-- Python
+Since Windows doesn't come with Python and PIP pre-installed, you'll need to install them if you haven't already. After thar, install the following dependecies:
+
 - Keras
 - Sklearn
 - OpenCV
