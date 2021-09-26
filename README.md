@@ -16,6 +16,15 @@ The dependencies to run this script are:
   7) imutils
   8) tkinter
   
+## Introduction
+
+Everyone recognizes the importance of wearing a mask to reduce the spread of SARS-CoV-2, the virus that causes COVID-19. However, instead of letting people
+monitor each other, the intention of this project is to develop a computer program that would be able to analyze images or real-time video stream from a webcam and detect whether people are wearing a mask or not.
+This mask recognition software does not hurt privacy because the program does not actually identify people. The software is trained according to two sets of images: one that teaches the algorithm how to recognize a face (“face detection”) and another that
+defines how to recognize a face with a mask (“mask recognition”). The machine learning algorithm does not identify the face in a way that can link it to a specific person, because it does not use any type of training that links faces to identities.
+
+## How to use it
+
 To train the model, the gui.py file can be used or the following command can be issued on the terminal (inside the project’s root folder):
 
 `python3 train_mask_detector.py --dataset dataset`
