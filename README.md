@@ -62,6 +62,14 @@ python -m pip install numpy
 python -m pip install imutils
 python -m pip install tk
 ```
+### macOS
+
+MacOS comes with Python, but is a deprecated version that is no longer supported. So, it is recommended to [install a newer version of Python](https://www.python.org/downloads/macos/).
+
+Then, type the following command on the terminal to install the necessary packages:
+```
+
+```
 
 ## How to use
 
