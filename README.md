@@ -29,6 +29,36 @@ This project consists of four Python scripts:
 - `detect_mask_video.py`: Search for facial masks in every frame of the webcam video stream.
 - `gui.py`: Combines all three previously cited scripts into one graphical user interface program.
 
+## Installation
+
+You'll need to install the necessary packages so that the script can run withouth any problems.
+
+### Linux
+
+Before installing the dependencies, please make sure you have python3 and pip package manager already installed on your machine. After that, on the Linux terminal, type the following commands as root:
+```
+sudo pip3 install tensorflow
+sudo pip3 install keras
+sudo pip3 install sklearn
+sudo pip3 install cv2
+sudo pip3 install matplotlib
+sudo pip3 install numpy
+sudo pip3 install imutils
+sudo pip3 install tk
+
+```
+
+### Windows
+
+- Python
+- Keras
+- Sklearn
+- OpenCV
+- Matplotlib
+- Numpy
+- Imutils
+- Tkinter
+
 ## How to use it
 
 ### Training the model
