@@ -23,6 +23,12 @@ monitor each other, the intention of this project is to develop a computer progr
 This mask recognition software does not hurt privacy because the program does not actually identify people. The software is trained according to two sets of images: one that teaches the algorithm how to recognize a face (“face detection”) and another that
 defines how to recognize a face with a mask (“mask recognition”). The machine learning algorithm does not identify the face in a way that can link it to a specific person, because it does not use any type of training that links faces to identities.
 
+This project consists of four Python scripts:
+• train_mask_detector: Takes the input dataset and creates the detector model using the MobileNetV2 convolutional neural network architecture. A training report image containing the accuracy/loss graph is also created when this script is run.
+• detect_mask_image: Search for facial masks in static images.
+• detect_mask_video: Search for facial masks in every frame of the webcam video stream.
+• gui.py: Combines all three previously cited scripts into one graphical user interface program.
+
 ## How to use it
 
 To train the model, the gui.py file can be used or the following command can be issued on the terminal (inside the project’s root folder):
