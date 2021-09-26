@@ -49,9 +49,7 @@ sudo pip3 install tk
 
 ### Windows
 
-Since Windows doesn't come with Python pre-installed, you'll need to install it if you haven't already. Use the link below to download Python:
-
-[Python](https://www.python.org/downloads/windows/) (it is recommended to install the stable release)
+Since Windows doesn't come with Python pre-installed, you'll need to [install Python](https://www.python.org/downloads/windows/) if you haven't already. It is recommended to install the stable release.
 
 After thar, install the following dependecies typing the following commands on the Command Prompt (CMD):
 ```
