@@ -15,6 +15,16 @@ The dependencies to run this script are:
   6) Numpy
   7) Imutils
   8) Tkinter
+ 
+## Contents
+- [Installation](#installation)
+  * [Linux](#linux)
+  * [Windows](#windows)
+  * [macOS](#macos)
+- [How to use](#how-to-use)
+  * [Training the model](#training-the-model)
+  * [Face mask detection for static images](#face-mask-detection-for-static-images)
+  * [Face mask detection for real-time video](#face-mask-detection-for-real-time-video)
   
 ## Introduction
 
