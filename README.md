@@ -53,16 +53,17 @@ Since Windows doesn't come with Python pre-installed, you'll need to install it 
 
 [Python](https://www.python.org/downloads/windows/) (it is recommended to install the stable release)
 
-After thar, install the following dependecies:
-
-- [Tensorflow]()
-- [Keras]()
-- [Sklearn]()
-- [OpenCV]()
-- [Matplotlib]()
-- [Numpy]()
-- [Imutils]()
-- [Tkinter]()
+After thar, install the following dependecies typing the following commands on the Command Prompt (CMD):
+```
+python -m pip install tensorflow
+python -m pip install keras
+python -m pip install sklearn
+python -m pip install cv2
+python -m pip install matplotlib
+python -m pip install numpy
+python -m pip install imutils
+python -m pip install tk
+```
 
 ## How to use it
 
