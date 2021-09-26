@@ -33,7 +33,7 @@ This project consists of four Python scripts:
 
 ### Training the model
 
-To train the model, the gui.py file can be used or the following command can be issued on the terminal (inside the project’s root folder):
+To train the model, the `gui.py` file can be used or the following command can be issued on the terminal (inside the project’s root folder):
 
 `python3 train_mask_detector.py --dataset dataset`
 
@@ -75,7 +75,7 @@ More images were then used to continue to test the model. Some of the results of
 
 ### Face mask detection for real-time video 
 
-After assuring that the detect_mask_image.py script is working properly, it is time to test the detect_mask_video.py script to see if it also preforms without issues. Once again, to do that the gui.py file can be used or the following command can be issued in the terminal:
+After assuring that the detect_mask_image.py script is working properly, it is time to test the detect_mask_video.py script to see if it also preforms without issues. Once again, to do that the `gui.py` file can be used or the following command can be issued in the terminal:
 
 `python3 detect_mask_video.py`
 
