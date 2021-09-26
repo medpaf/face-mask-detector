@@ -70,10 +70,6 @@ More images were then used to continue to test the model. Some of the results of
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/61552222/134815855-ac6160e9-ad3d-4aa7-b2d0-496b7bec3ca9.png" />
-</p>
-
-<p align="center">
   <img src="https://user-images.githubusercontent.com/61552222/134815856-19935b8f-967b-4a4d-815e-6e5118e39a80.png" />
 </p>
 
