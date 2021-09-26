@@ -35,7 +35,7 @@ You'll need to install the necessary packages so that the script can run without
 
 ### Linux
 
-Before installing the dependencies, please make sure you have python3 and pip package manager already installed on your machine. After that, on the Linux terminal, type the following commands as root:
+Before installing the dependencies, please make sure you have `python3` and `pip3` package manager already installed on your machine. After that, on the Linux terminal, type the following commands as root:
 ```
 sudo pip3 install tensorflow
 sudo pip3 install keras
