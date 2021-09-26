@@ -68,7 +68,14 @@ MacOS comes with Python, but is a deprecated version that is no longer supported
 
 Then, type the following command on the terminal to install the necessary packages:
 ```
-
+pip install tensorflow
+pip install keras
+pip install sklearn
+pip install cv2
+pip install matplotlib
+pip install numpy
+pip install imutils
+pip install tk
 ```
 
 ## How to use
