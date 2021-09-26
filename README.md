@@ -63,7 +63,7 @@ python -m pip install imutils
 python -m pip install tk
 ```
 
-## How to use it
+## How to use
 
 ### Training the model
 
