@@ -51,7 +51,7 @@ issued in the terminal as an example:
 
 `python3 detect_mask_image.py --image examples/ex1`
 
-More images were then used to continue to test the model. The results of these tests are shown below.
+More images were then used to continue to test the model. Some of the results of these tests are shown below.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/61552222/134815850-9493c9f7-354b-4e9e-9740-ccd988ed5725.png" />  
@@ -62,15 +62,7 @@ More images were then used to continue to test the model. The results of these t
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/61552222/134815852-440f7640-876a-423d-a2e0-30f7099ef7d0.png" />
-</p>
-
-<p align="center">
   <img src="https://user-images.githubusercontent.com/61552222/134815853-321e27b7-6daa-4a3c-a72f-a9354374be95.png" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/61552222/134815854-e9d22106-93f3-4b3d-81c5-c071bebb0e28.pn" />
 </p>
 
 <p align="center">
