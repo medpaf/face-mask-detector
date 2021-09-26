@@ -45,7 +45,6 @@ sudo pip3 install matplotlib
 sudo pip3 install numpy
 sudo pip3 install imutils
 sudo pip3 install tk
-
 ```
 
 ### Windows
