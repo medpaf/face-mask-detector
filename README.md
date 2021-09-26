@@ -50,7 +50,7 @@ Before installing the dependencies, please make sure you have `python3` installe
 sudo pip3 install tensorflow
 sudo pip3 install keras
 sudo pip3 install sklearn
-sudo pip3 install cv2
+sudo pip3 install opencv-contrib-python
 sudo pip3 install matplotlib
 sudo pip3 install numpy
 sudo pip3 install imutils
@@ -66,7 +66,7 @@ After that, install the following dependecies typing the following commands on t
 python -m pip install tensorflow
 python -m pip install keras
 python -m pip install sklearn
-python -m pip install cv2
+python -m pip install opencv-contrib-python
 python -m pip install matplotlib
 python -m pip install numpy
 python -m pip install imutils
@@ -81,7 +81,7 @@ Then, type the following command on the terminal to install the necessary packag
 pip install tensorflow
 pip install keras
 pip install sklearn
-pip install cv2
+pip install opencv-contrib-python
 pip install matplotlib
 pip install numpy
 pip install imutils
@@ -94,9 +94,9 @@ pip install tk
 
 To train the model, the `gui.py` file can be used or the following command can be issued on the terminal (inside the project’s root folder):
 
-`python3 train_mask_detector.py --dataset dataset`, for UNIX
+`python3 train_mask_detector.py --dataset dataset`, for Linux
 
-`python train_mask_detector.py --dataset dataset`, for Windows
+`python train_mask_detector.py --dataset dataset`, for Windows and macOS
 
 After issuing this command, the terminal will continuously prompt current information about the training process including accuracy, loss, number of epoch and
 remaining time.
@@ -114,9 +114,9 @@ After the training process is done, inside the root folder, an image file will b
 To test the model using static images, apart from using the GUI, which is recommended since it makes the process fairly simple, the following command can be
 issued in the terminal as an example:
 
-`python3 detect_mask_image.py --image examples/ex1`, for UNIX 
+`python3 detect_mask_image.py --image examples/ex1`, for Linux 
 
-`python detect_mask_image.py --image examples/ex1`, for Windows 
+`python detect_mask_image.py --image examples/ex1`, for Windows and macOS
 
 
 More images were then used to continue to test the model. Some of the results of these tests are shown below.
@@ -141,9 +141,9 @@ More images were then used to continue to test the model. Some of the results of
 
 After assuring that the detect_mask_image.py script is working properly, it is time to test the detect_mask_video.py script to see if it also preforms without issues. Once again, to do that the `gui.py` file can be used or the following command can be issued in the terminal:
 
-`python3 detect_mask_video.py`, for UNIX
+`python3 detect_mask_video.py`, for Linux
 
-`python detect_mask_video.py`, for Windows
+`python detect_mask_video.py`, for Windows and macOS
 
 <p align="center">
  <img src= https://user-images.githubusercontent.com/61552222/134815890-2d36ea22-045f-48ff-b166-33a99026dbf2.png />
