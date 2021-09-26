@@ -61,7 +61,7 @@ sudo pip3 install tk
 
 Since Windows doesn't come with Python pre-installed, you'll need to [install Python](https://www.python.org/downloads/windows/) if you haven't already. It is recommended to install the stable release.
 
-After that, install the following dependecies typing the following commands on the Command Prompt (CMD):
+After that, install the following dependecies by typing the following commands on the Command Prompt (CMD):
 ```
 python -m pip install tensorflow
 python -m pip install keras
