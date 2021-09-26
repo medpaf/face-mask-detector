@@ -74,7 +74,7 @@ python -m pip install tk
 ```
 ### macOS
 
-macOS comes with Python, but is a deprecated version that is no longer supported. So, it is recommended to [install a newer version of Python](https://www.python.org/downloads/macos/). It is recommended to install the stable release.
+macOS comes with Python, but is a deprecated version that is no longer supported. So, you should [install a newer version of Python](https://www.python.org/downloads/macos/). It is recommended to install the stable release.
 
 Then, type the following command on the terminal to install the necessary packages:
 ```
