@@ -35,7 +35,7 @@ You'll need to install the necessary packages so that the script can run without
 
 ### Linux
 
-Before installing the dependencies, please make sure you have `python3` and `pip3` package manager already installed on your machine. But since almost all Linux distros come with them pre-installed you probably won't need to install them. After that, on the Linux terminal, type the following commands as root:
+Before installing the dependencies, please make sure you have `python3` installed on your machine. But since almost all Linux distros come with Python pre-installed you probably won't need to perform this step. After that, on the Linux terminal, type the following commands as root:
 ```
 sudo pip3 install tensorflow
 sudo pip3 install keras
@@ -49,15 +49,20 @@ sudo pip3 install tk
 
 ### Windows
 
-Since Windows doesn't come with Python and PIP pre-installed, you'll need to install them if you haven't already. After thar, install the following dependecies:
+Since Windows doesn't come with Python pre-installed, you'll need to install it if you haven't already. Follow the link below to download Python.
 
-- Keras
-- Sklearn
-- OpenCV
-- Matplotlib
-- Numpy
-- Imutils
-- Tkinter
+[Python](https://www.python.org/downloads/windows/) (it is recommended to install the stable release)
+
+After thar, install the following dependecies:
+
+- [Tensorflow]()
+- [Keras]()
+- [Sklearn]()
+- [OpenCV]()
+- [Matplotlib]()
+- [Numpy]()
+- [Imutils]()
+- [Tkinter]()
 
 ## How to use it
 
