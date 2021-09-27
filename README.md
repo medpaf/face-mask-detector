@@ -91,6 +91,10 @@ pip install tk
 
 ## How to use
 
+The `gui.py` file can be used to perform all tasks. Currently this script can only be used in Linux. However it will also support Windows and macOS soon.
+
+![gui](https://user-images.githubusercontent.com/61552222/134894426-4d9d3051-f2ec-45c0-9994-857650209e1f.png)
+
 ### Training the model
 
 To train the model, the `gui.py` file can be used or one of the following command can be issued on the terminal.
