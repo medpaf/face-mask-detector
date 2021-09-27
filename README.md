@@ -95,6 +95,7 @@ pip install tk
 To train the model, the `gui.py` file can be used or one of the following command can be issued on the terminal.
 On Linux, type:
 
+```
 python3 train_mask_detector.py --dataset dataset
 ```
 However, if you're using Windows or macOS type the following command:
