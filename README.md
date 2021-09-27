@@ -98,7 +98,7 @@ python3 train_mask_detector.py --dataset dataset
 ```
 However, if you're using Windows or macOS type the following command:
 ```
-python train_mask_detector.py --dataset dataset, for Windows and macOS
+python train_mask_detector.py --dataset dataset
 ```
 
 After issuing this command, the terminal will continuously prompt current information about the training process including accuracy, loss, number of epoch and
