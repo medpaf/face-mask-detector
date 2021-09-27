@@ -17,6 +17,7 @@ The dependencies to run this script are:
   8) Tkinter
  
 ## Contents
+- [Introduction](#introduction)
 - [Installation](#installation)
   * [Linux](#linux)
   * [Windows](#windows)
