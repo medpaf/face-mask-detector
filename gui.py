@@ -17,7 +17,12 @@ global folderLabel
 
 def train_model():
     if os.path.exists('config/dataset.txt'):
-        os.system('python3 train_mask_detector.py --dataset ' + datasetPath)
+        # If OS is Linux
+        if os.name == 'posix':
+            os.system('python3 train_mask_detector.py --dataset ' + datasetPath)
+        # If OS is Windows or macOS
+        else:
+            os.system(f'python train_mask_detector.py --dataset "{datasetPath}"')
     else:
         messagebox.showerror('Error', 'Dataset path is not specified. Please input the path in the Settings tab.')
 
@@ -39,9 +44,7 @@ def select_img_to_scan():
     global fileLabel
     global btnScanImg
 
-    filename = filedialog.askopenfilename(initialdir='/home/medpaf/Documents', title='Select an image to scan',
-                                          filetypes=(('jpg files', '*.jpg'), ('All files', '*.*')))
-
+    filename = filedialog.askopenfilename(initialdir='/', title='Select an image to scan', filetypes=(('jpg files', '*.jpg'), ('All files', '*.*')))
     fileLabel = ttk.Label(tabImg)
     fileLabel.pack(padx=10, pady=(0, 10))
     fileLabel.config(text=filename)
@@ -56,12 +59,20 @@ def perform_img_scan():
 
     fileLabel.destroy()
     btnScanImg.destroy()
-    os.system('python3 detect_mask_image.py --image ' + filename)
-
-
+    # If OS is Linux
+    if os.name == 'posix':
+        os.system('python3 detect_mask_image.py --image ' + filename) #Linux
+    # If OS is Windows or macOS
+    else:
+        os.system(f'python detect_mask_image.py --image "{filename}"')
 
 def perform_video_scan():
-    os.system('python3 detect_mask_video.py')
+    # If OS is Linux
+    if os.name == 'posix':
+        os.system('python3 detect_mask_video.py')
+    # If OS is Windows or macOS
+    else:
+        os.system('python detect_mask_video.py')
 
 # Create root widget window
 root = tk.Tk()
