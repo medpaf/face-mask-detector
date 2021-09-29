@@ -12,10 +12,13 @@ global filename
 global fileLabel
 global btnScanImg
 global folderLabel
+global datasetPath
 
 # Create each function that will be performed after a button click
 
 def train_model():
+    global datasetPath
+    
     if os.path.exists('config/dataset.txt'):
         # If OS is Linux
         if os.name == 'posix':
@@ -28,15 +31,18 @@ def train_model():
 
 def select_folder_to_database():
     global folderLabel
+    global datasetPath
+
     datasetFolder = filedialog.askdirectory(initialdir='/', title='Select the database folder')
 
-    folderLabel.destroy()
+    #folderLabel.destroy()
     folderLabel = ttk.Label(tabConf, text=datasetFolder)
     folderLabel.pack(padx=10, pady=(0, 10))
 
     # Save the folder path to a .txt file so that it could be read the next time the app opens
     file = open('config/dataset.txt', 'w+')
     file.write(datasetFolder)
+    datasetPath = datasetFolder
     file.close()
 
 def select_img_to_scan():
