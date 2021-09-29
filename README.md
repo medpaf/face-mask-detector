@@ -49,12 +49,19 @@ You'll need to install the necessary packages so that the script can run without
 Before installing the dependencies, please make sure you have `python3` installed on your machine. But since almost all Linux distros come with Python pre-installed you probably won't need to perform this step. After that, on the Linux terminal, type the following commands as root:
 ```
 sudo pip3 install tensorflow
+
 sudo pip3 install keras
+
 sudo pip3 install sklearn
+
 sudo pip3 install opencv-contrib-python
+
 sudo pip3 install matplotlib
+
 sudo pip3 install numpy
+
 sudo pip3 install imutils
+
 sudo pip3 install tk
 ```
 
@@ -65,12 +72,19 @@ Since Windows doesn't come with Python pre-installed, you'll need to [install Py
 After that, install the following dependecies by typing the following commands on the Command Prompt (CMD):
 ```
 python -m pip install tensorflow
+
 python -m pip install keras
+
 python -m pip install sklearn
+
 python -m pip install opencv-contrib-python
+
 python -m pip install matplotlib
+
 python -m pip install numpy
+
 python -m pip install imutils
+
 python -m pip install tk
 ```
 ### macOS
@@ -80,12 +94,19 @@ macOS comes with Python, but is a deprecated version that is no longer supported
 Then, type the following command on the terminal to install the necessary packages:
 ```
 pip install tensorflow
+
 pip install keras
+
 pip install sklearn
+
 pip install opencv-contrib-python
+
 pip install matplotlib
+
 pip install numpy
+
 pip install imutils
+
 pip install tk
 ```
 
