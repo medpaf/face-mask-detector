@@ -69,7 +69,7 @@ sudo pip3 install tk
 
 Since Windows doesn't come with Python pre-installed, you'll need to [install Python](https://www.python.org/downloads/windows/) if you haven't already. It is recommended to install the stable release. 
 
-When in the installation, be sure to check the option `add Python to environment variables`. 
+When in the installation, be sure to check the option `Add Python to environment variables`. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/61552222/135264123-cd0b28bc-a2ef-4802-b26e-5a452799f81f.PNG" />
