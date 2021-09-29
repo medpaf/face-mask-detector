@@ -205,6 +205,10 @@ python detect_mask_video.py
 ```
 
 <p align="center">
- <img src= https://user-images.githubusercontent.com/61552222/134815890-2d36ea22-045f-48ff-b166-33a99026dbf2.png />
+ <img src= />
 </p>
+
+
+https://user-images.githubusercontent.com/61552222/135267694-51a13ee3-1c70-4ca5-a63c-02adff07a891.mp4
+
 
