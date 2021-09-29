@@ -150,8 +150,8 @@ After the training process is done, inside the root folder, an image file will b
 
 ### Face mask detection for static images
 
-To test the model using static images, apart from using the GUI, which is recommended since it makes the process fairly simple, the following commands can also be
-issued in the terminal as an example. For Linux, type the following on the terminal:
+To test the model using static images, apart from using the GUI (under the Image tab), which is recommended since it makes the process fairly simple, the following commands can also be issued in the terminal as an example. 
+For Linux, type the following on the terminal:
 
 ```
 python3 detect_mask_image.py --image examples/ex1
@@ -181,7 +181,7 @@ More images were then used to continue to test the model. Some of the results of
 
 ### Face mask detection for real-time video 
 
-After assuring that the detect_mask_image.py script is working properly, it is time to test the detect_mask_video.py script to see if it also preforms without issues. Once again, to do that the `gui.py` file can be used or depending on your system's OS, the following commands can be issued in the terminal. 
+After assuring that the detect_mask_image.py script is working properly, it is time to test the detect_mask_video.py script to see if it also preforms without issues. Once again, to do that the `gui.py` file can be used (in the Video tab) or depending on your system's OS, the following commands can be issued in the terminal. 
 On Linux, type:
 
 ```
