@@ -45,7 +45,7 @@ def detect_and_predict_mask(frame, faceNet, maskNet):
 
 			# Extract the face ROI, change the channel ordering from BGR to RGB, resize it to 224x224, and preprocess it
 			face = frame[startY:endY, startX:endX]
-			face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
+			face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB) ### color
 			face = cv2.resize(face, (224, 224))
 			face = img_to_array(face)
 			face = preprocess_input(face)
