@@ -71,7 +71,8 @@ Since Windows doesn't come with Python pre-installed, you'll need to [install Py
 
 After that, install the following dependecies by typing the following commands one by one on the Command Prompt (CMD):
 ```
-python -m pip install tensorflow
+python -m pip install tensorflow  
+test
 ```
 ```
 python -m pip install keras
