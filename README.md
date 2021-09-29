@@ -119,7 +119,7 @@ pip install tk
 
 ## How to use
 
-The `gui.py` file can be used to perform all tasks. Currently this script can only be used in Linux. However it will also support Windows and macOS soon.
+The `gui.py` file can be used to perform all tasks.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/61552222/134894426-4d9d3051-f2ec-45c0-9994-857650209e1f.png" />
@@ -127,9 +127,8 @@ The `gui.py` file can be used to perform all tasks. Currently this script can on
 
 ### Training the model
 
-To train the model, the `gui.py` file can be used or one of the following command can be issued on the terminal.
+This model is already trained, so you probably won't need to perform this step. However, if you still insist or want to retrain the model, the `gui.py` file can be used. First, on the GUI, go to the Settings tab and click 'Browse' to select the path to the dataset you wish to use to train the model. After that, go to the Training tab and click 'Train model'.  Another alternative to train the model is to use one of the following command depending on your system's OS:
 On Linux, type:
-
 ```
 python3 train_mask_detector.py --dataset dataset
 ```
