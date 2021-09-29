@@ -1,1 +1,0 @@
-/home/medpaf/Documents/face-mask-detector/dataset
