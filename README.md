@@ -127,7 +127,7 @@ The `gui.py` file can be used to perform all tasks.
 
 ### Training the model
 
-This model is already trained, so you probably won't need to perform this step. However, if you still insist or want to retrain the model, the `gui.py` file can be used. First, on the GUI, go to the Settings tab and click 'Browse' to select the path to the dataset you wish to use to train the model. After that, go to the Training tab and click 'Train model'.  Another alternative to train the model is to use one of the following command depending on your system's OS:
+This model is already trained, so you probably won't need to perform this step. However, if you still insist or want to retrain the model, the `gui.py` file can be used. First, on the GUI, go to the Settings tab and click 'Browse' to select the path to the dataset you wish to use to train the model. After that, go to the Training tab and click 'Train model'.  Another alternative to train the model is to use one of the following commands depending on your system's OS:
 On Linux, type:
 ```
 python3 train_mask_detector.py --dataset dataset
