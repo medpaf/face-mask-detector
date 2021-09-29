@@ -28,7 +28,7 @@ def train_model():
 
 def select_folder_to_database():
     global folderLabel
-    datasetFolder = filedialog.askdirectory(initialdir='/home/medpaf/Documents', title='Select the database folder')
+    datasetFolder = filedialog.askdirectory(initialdir='/', title='Select the database folder')
 
     folderLabel.destroy()
     folderLabel = ttk.Label(tabConf, text=datasetFolder)
@@ -61,7 +61,7 @@ def perform_img_scan():
     btnScanImg.destroy()
     # If OS is Linux
     if os.name == 'posix':
-        os.system('python3 detect_mask_image.py --image ' + filename) #Linux
+        os.system('python3 detect_mask_image.py --image ' + filename) 
     # If OS is Windows or macOS
     else:
         os.system(f'python detect_mask_image.py --image "{filename}"')
