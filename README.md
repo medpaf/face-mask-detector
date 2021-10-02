@@ -6,6 +6,8 @@
 [![Size](https://img.shields.io/github/repo-size/medpaf/face-mask-detector)]()
 [![not Mantained](http://unmaintained.tech/badge.svg)]()
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
+[![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Computer vision and machine learning application implemented in Python to detect masks in one or more faces.
