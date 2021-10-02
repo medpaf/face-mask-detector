@@ -1,5 +1,13 @@
 # Face mask detector
 
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Stars](https://img.shields.io/github/stars/medpaf/medsec.svg)]()
+[![Forks](https://img.shields.io/github/forks/medpaf/medsec.svg)]()
+[![Size](https://img.shields.io/github/repo-size/medpaf/medsec)]()
+[![not Mantained](http://unmaintained.tech/badge.svg)]()
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Computer vision and machine learning application implemented in Python to detect masks in one or more faces.
 Supports detection from static images and video streams from webcam.
 
