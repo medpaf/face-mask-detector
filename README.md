@@ -52,7 +52,7 @@ This project consists of four Python scripts:
 
 ## Installation
 
-You'll need to install the necessary packages so that the script can run withouth any problems.
+You'll need to install the necessary packages so that the script can run without any problems.
 
 ### Linux
 
