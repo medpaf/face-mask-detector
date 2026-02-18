@@ -214,9 +214,7 @@ On Windows and macOS, use the following:
 python detect_mask_video.py
 ```
 
-<p align="center">
- <img src= https://user-images.githubusercontent.com/61552222/135268345-358c01e7-6061-48a2-85ca-a2cda920d11b.gif />
-</p>
+
 
 
 
